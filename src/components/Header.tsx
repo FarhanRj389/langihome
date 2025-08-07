@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             className="flex items-center cursor-pointer"
             onClick={() => setCurrentPage('home')}
           >
-            <div className="h-16 w-16 rounded-full mr-3 bg-gray-900 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-full mr-3 bg-gray-900 flex items-center justify-center">
               {/* <span className="text-white font-bold text-lg">LH</span> */}
               <img src="/logo.jpeg" alt="Langi Home" />
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bath, Home, ToyBrick as Brick, Palette, Book as Roof, Fence, Square, ArrowRight, CheckCircle } from 'lucide-react';
+import { Home, ToyBrick as Brick, Palette, Book as Roof, Fence, Square, ArrowRight, CheckCircle } from 'lucide-react';
 
 interface ServicesHighlightsProps {
   setCurrentPage: (page: string) => void;
@@ -10,42 +10,49 @@ const ServicesHighlights: React.FC<ServicesHighlightsProps> = ({ setCurrentPage 
     {
       icon: CheckCircle,
       title: 'Bathroom & Kitchen Renovations',
+      desc:"We specialize in full bathroom and kitchen renovations, including modern fixtures, cabinetry, plumbing, and electrical work. From design to installation, we ensure your space is both stylish and functional.",
       id: 'bathroom-kitchen',
       color: 'bg-blue-100 text-blue-600',
     },
     {
       icon: Home,
       title: 'Full House Renovations',
+      desc: "We offer expert painting and plastering services, delivering flawless finishes from prep to final coat. Interior/exterior painting, wallpaper removal, and decorative finishes included.",
       id: 'full-house',
       color: 'bg-green-100 text-green-600',
     },
     {
       icon: Brick,
       title: 'Recladding & Extensions',
+      desc: "Expand your living space with ease through our home extension services. We specialize in room additions, second-story builds, and outdoor living spaces that match your home perfectly.",
       id: 'recladding-extensions',
       color: 'bg-orange-100 text-orange-600',
     },
     {
       icon: Palette,
       title: 'Painting & Plastering',
+      desc: "Transform your space with our professional painting and plastering services, ensuring a smooth, lasting finish. We handle interior and exterior painting, wallpaper removal, and decorative finishes.",
       id: 'painting-plastering',
       color: 'bg-purple-100 text-purple-600',
     },
     {
       icon: Roof,
       title: 'Roof Repairs & Maintenance',
+      desc: "From emergency leak repairs to full roof replacements, we keep your home dry and protected. Our experts handle all roofing materials and offer complete maintenance solutions.",
       id: 'roof-repairs',
       color: 'bg-red-100 text-red-600',
     },
     {
       icon: Fence,
       title: 'Timber Fencing & Retaining Walls',
+      desc: "Boost your property's security and style with our custom fencing and retaining wall services. We offer timber fencing, concrete block walls, and decorative boundary solutions.",
       id: 'fencing-retaining',
       color: 'bg-yellow-100 text-yellow-600',
     },
     {
       icon: Square,
       title: 'Decks, Balconies & Concrete Driveways',
+      desc: "Make a strong first impression with our expertly installed concrete driveways. Choose from finishes like exposed aggregate, stamped concrete, and polished surfaces to suit your home’s style.",
       id: 'decks-driveways',
       color: 'bg-indigo-100 text-indigo-600',
     },
@@ -88,6 +95,9 @@ const ServicesHighlights: React.FC<ServicesHighlightsProps> = ({ setCurrentPage 
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {service.title}
+                </h3>
+                <h3 className="text-sm text-gray-600 mb-2">
+                  {service.desc}
                 </h3>
               </div>
             );

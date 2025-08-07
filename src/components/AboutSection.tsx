@@ -20,7 +20,7 @@ const AboutSection: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center group">
-            <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <div className="bg-blue-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
               <Award className="h-8 w-8 text-white" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">LBP Certified</h3>
@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
           </div>
 
           <div className="text-center group">
-            <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+            <div className="bg-cyan-300 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
               <Clock className="h-8 w-8 text-white" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">On-Time Delivery</h3>
