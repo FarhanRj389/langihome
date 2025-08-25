@@ -45,7 +45,7 @@ const ContactSection: React.FC = () => {
                     href="mailto:langihomes@gmail.com" 
                     className="text-green-600 hover:text-green-700 transition-colors"
                   >
-                    langihomes@gmail.com
+                    info@langihomes.co.nz
                   </a>
                 </div>
               </div>

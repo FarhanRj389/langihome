@@ -81,10 +81,10 @@ const ContactPage: React.FC = () => {
                 <div>
                   <p className="font-semibold text-gray-900 text-lg">Email</p>
                   <a 
-                    href="mailto:langihomes@gmail.com" 
+                    href="mailto:info@langihomes.co.nz" 
                     className="text-green-600 hover:text-green-700 transition-colors text-xl"
                   >
-                    langihomes@gmail.com
+                    info@langihomes.co.nz
                   </a>
                 </div>
               </div>

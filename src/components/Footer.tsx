@@ -75,8 +75,8 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-3 text-blue-400" />
-                <a href="mailto:langihomes@gmail.com" className="text-gray-300 hover:text-white transition-colors">
-                  langihomes@gmail.com
+                <a href="mailto:info@langihomes.co.nz" className="text-gray-300 hover:text-white transition-colors">
+                  info@langihomes.co.nz
                 </a>
               </div>
               <div className="flex items-center">
